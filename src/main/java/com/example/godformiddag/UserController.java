@@ -23,5 +23,10 @@ public class UserController {
 
     }
 
+    @GetMapping("/success")
+    public String success(){
+        return "index";
+    }
+
 
 }
